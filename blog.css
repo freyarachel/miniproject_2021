@@ -1,0 +1,323 @@
+
+body{
+
+   font-family: 'Poppins', sans-serif;
+}
+
+
+.logo {
+   font-family:'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight:bold;
+   color:#000;
+   padding: 30px 0px 30px 0px;
+}
+
+.navbar{
+   display:flex;
+   align-items:center;
+   padding:20px;
+   
+   
+
+}
+nav{
+   flex:1;
+   text-align:right;
+   
+}
+
+nav ul {
+   display:inline-block;
+   list-style-type:none;
+}
+nav ul li{
+   display:inline-block;
+   margin-right:20px;
+
+}
+
+
+nav a {
+   text-decoration: none;
+   color: #555;
+   
+}
+
+ 
+ img {
+    max-width: 100%;
+    display: block;
+ }
+ 
+ .image-full {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2em;
+ }
+ 
+ h1,
+ h2,
+ h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #000;
+    margin-top: 0;
+ }
+ 
+ h1 {
+    font-size: 2rem;
+    margin: 0;
+ }
+ 
+ h3 {
+    color: #92d6c6;
+ }
+ 
+ .subtitle {
+    font-weight: 700;
+    color:#92d6c6 ;
+    font-size: .75rem;
+    margin: 0;
+ }
+ 
+ .article-title {
+    font-size: 1.5rem;
+ }
+ 
+ .article-read-more,
+ .article-info {
+    font-size: .875rem;
+ }
+ 
+ .article-read-more {
+    color: #92d6c6;
+    text-decoration: none;
+    font-weight: 700;
+ }
+ 
+ .article-read-more:hover,
+ .article-read-more:focus {
+    color: #000;
+    text-decoration: underline;
+ }
+ 
+ .article-info {
+    margin: 2em 0;
+ }
+ 
+ .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+ }
+ 
+ .container-nav,
+ .container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ 
+ header {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 2em 0;
+    margin-bottom: 3em;
+ }
+ 
+
+ 
+ strong {
+    font-weight: 700;
+ }
+ 
+
+ nav li {
+    margin: .5em 0;
+ }
+ 
+ nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 700;
+    margin: .25em 0;
+ }
+ 
+ nav a:hover,
+ nav a:focus {
+    color: #92d6c6;
+ }
+ 
+ .current-page {
+    border-bottom: 1px solid #707070;
+ }
+ 
+ .current-page:hover {
+    color: #555;
+ }
+ 
+ .article-featured {
+    border-bottom: #555 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+ }
+ 
+ .article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+ }
+ 
+ .article-recent-main {
+    order: 2;
+ }
+ 
+ .article-recent-secondary {
+    order: 1;
+ }
+ 
+ .sidebar-widget {
+    border: 10px solid #efefef;
+    margin-bottom: 2em;
+    padding: 1em;
+ }
+ 
+ .widget-title {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+ }
+ 
+ .widget-recent-post-title {
+    font-size: 1rem;
+ }
+ 
+ .widget-recent-post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #555;
+    margin-bottom: 1em;
+ }
+ 
+ .widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+ }
+ 
+ .widget-image {
+    order: -1;
+    margin-bottom: .5em;
+ }
+ 
+ 
+ @media (min-width: 675px) {
+    .container-nav,
+    .container-flex {
+       flex-direction: row;
+    }
+    
+    .container-nav{
+       align-items: center;
+    }
+    
+    main {
+       width: 70%;
+    }
+ 
+    aside {
+       width: 25%;
+       min-width: 200px;
+       margin-left: 1em;
+    }
+    
+    nav ul {
+       flex-direction: row;
+    }
+    
+    nav li {
+       margin-left: 2em;
+    }
+    
+    
+    .article-recent {
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    
+    .article-recent-main {
+       width: 68%;
+    }
+    
+    .article-recent-secondary {
+       width: 30%;
+    }
+    
+    .article-title {
+       order: 99;
+    }
+    
+    .article-image {
+       width: 100%;
+       min-height: 200px;
+       object-fit: cover;
+    }
+    
+    
+    .article-featured {
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .article-image {
+       order: -2;
+    }
+    
+    .article-info {
+       order: -1;
+    }
+    
+    .article-title {
+       order: 0;
+    }
+    
+ }
+ /*----footer----*/
+
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size:14px;
+    padding:60px 0 40px;
+}
+
+.footer p{
+    color:#8a8a8a;
+    margin-bottom:20px;
+    font-size: 12px;
+    line-height: 10px;
+         
+}
+
+.footer-col-3{
+    min-width: 250px;
+    margin-bottom:20px;
+}
+
+.footer h3{
+    color:#fff
+}
+
+.footer hr {
+    border:none;
+    background:#b5b5b5;
+    height: 1px;
+    margin:20px 0;
+}
+
+.menu-icon{
+    width:28px;
+    margin-left:20px;
+    display:none;
+}

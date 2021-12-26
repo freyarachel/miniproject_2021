@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Help - Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">MENTAL HELP</div>
+		 
+			 <nav>
+			 <ul id="MenuItems">
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="blog.html">Blog</a></li>
+				 <li><a href="events.html">Events</a></li>
+				 <li><a href="contact.html">Contact</a></li>
+				 <li><a href="acc.html">Account</a></li>
+				 
+			 </ul>
+			</nav>
+	        </div>
+		</div>
+	</div>
+
+
+<!----categories---->
+<div class="small-container">
+   
+    <div class="row">
+        <h2 class="title">Music</h2>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <a href="musicplayer.html"><img src="images/depression.jpg">
+                <h4>Depression</h4></a>
+         </div>
+
+        <div class="col-3">
+            <a href="musicplayer.html"><img src="images/anxiety.jpg">
+                <h4>Anxiety</h4></a>   
+        </div>
+
+        <div class="col-3">
+            <a href="musicplayer.html"><img src="images/stress.jpg">
+            <h4>Stress</h4></a>
+        </div>
+
+        <div class="col-3">
+            <a href="musicplayer.html"><img src="images/lofi-beats.jpg">
+            <h4>Lofi-beats</h4></a>
+            
+        </div>
+        <div class="col-3">
+            <a href="musicplayer.html"><img src="images/sleep music.jpg">
+            <h4>Sleep Music</h4></a>
+        </div>
+        <div class="col-3">
+            <a href="musicplayer.html"><img src="images/meditate.jpg">
+            <h4>Mediate</h4></a>
+        </div>
+        
+        
+
+    </div>
+</div>
+
+<!-------footer----------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <div class="logo">MENTAL HELP</div>
+                <p>We welcome all help-seekers and strive to create a safe place for all people</p>  
+            </div>
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Blog Post</li>
+                    <li>Find Centers</li>
+                    <li>Contact Us</li>
+                    <li>Privacy policy</li>
+                </ul>   
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>   
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2021 Mental Help Ltd</p>
+        </div>
+    </div>
+</div>
+<!-----js for toggle menu----->
+ <script>
+     var MenuItems= document.getElementById("MenuItems");
+
+     MenuItems.style.maxHeight="0px";
+
+     function menutoggle() {
+         if(MenuItems.style.maxHeight == "0px")
+         {
+             MenuItems.style.maxHeight = "200px";
+         }
+         else
+         {
+            MenuItems.style.maxHeight = "0px";
+         }
+    }
+ </script>
+</body>
+</html>

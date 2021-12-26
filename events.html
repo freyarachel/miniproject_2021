@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Help</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">MENTAL HELP</div>
+		 
+			 <nav>
+			 <ul id="MenuItems">
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="blog.html">Blog</a></li>
+				 <li><a href="events.html">Events</a></li>
+				 <li><a href="contact.html">Contact</a></li>
+				 <li><a href="acc.html">Account</a></li>
+				 
+			 </ul>
+			</nav>
+	        </div>
+		</div>
+	</div>
+<!----events-->
+<div class="events">
+    <div class="Container">
+        <h2 class="title">Events</h2>
+        <div class="row">
+            <div class="col-2">
+                <img src="images/worldmentalhealthday.png" alt="man image">
+                <h4>World Mental Health Day</h4>
+                <p>10 October 2021</p>
+            </div>
+            <div class="col-2">
+                <img src="images/complexmentalhealth.jpeg" alt="man image">
+                <h4> Complex Mental Health conditions</h4>
+                <p>27 November 2021</p>
+            </div>
+            <div class="col-2">
+                <img src="images/parentingmental.jpg" alt="man image">
+                <h4>Parenting in Mental Health crisis</h4>
+                <p>21 December 2021</p>
+            </div>
+            <div class="col-2">
+                <img src="images/nutrimental.png" alt="man image">
+                <h4>Mental Health and Nutrition</h4>
+                <p>19 December 2021</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-------footer----------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <div class="logo">MENTAL HELP</div>
+                <p>We welcome all help-seekers and strive to create a safe place for all people</p>  
+            </div>
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Blog Post</li>
+                    <li>Find Centers</li>
+                    <li>Contact Us</li>
+                    <li>Privacy policy</li>
+                </ul>   
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>   
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2021 Mental Help Ltd</p>
+        </div>
+    </div>
+</div>
+
+<!-----js for toggle menu----->
+<script>
+    var MenuItems= document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle() {
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+           MenuItems.style.maxHeight = "0px";
+        }
+   }
+</script>
+</body>
+</html>

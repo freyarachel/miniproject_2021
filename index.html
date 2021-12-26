@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Help</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+<div class="header">
+   <div class="container">
+       <div class="navbar">
+           <div class="logo">MENTAL HELP</div>
+    
+        <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="acc.html">Account</a></li>
+          
+            
+            
+        </ul>
+       </nav>
+       <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Your Mental Health <br>is important.</h1>
+                <p>Know what's works for you.</p>
+                <a href="mailto:freyarachel07@gmail.com?Subject=Reservation" class="btn">Book an appointment &#8594;</a>
+               
+
+            </div>
+            <div class="col-2">
+                <img src="images/smile.png" alt="Woman image"> 
+                
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!----featured-->
+<div class="categories">
+    <div class="small-container">
+        <h2 class="title">Blogs</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="images/man.jpg" alt="man image">
+                <h4>How to boost self-esteem</h4>
+                <p>A lot of people have times when they doubt they're up to the task,even some of the best in thier field experience imposter syndrome from time to time about.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/two woman.jpg" alt="man image">
+                <h4>Looking after yourself when you're caring for someone else</h4>
+                <p>If you're supporting a young person through mental health diffculties, it's important to take care of yourself too. Here are some tips.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/woman.jpg" alt="woman image">
+                <h4>Tools to help you manage anxiety</h4>
+                <p>Anxiety can sometimes be difficult to manage, but threr are someways to make it easier.</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!----categories---->
+<div class="small-container">
+    <h2 class="title">Search in Categories</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/teen boy.jpg">
+            <h4>For Teens</h4>
+            
+        </div>
+        <div class="col-4">
+            <img src="images/children.jpg">
+            <h4>For Children</h4>
+            
+        </div>
+        <div class="col-4">
+            <img src="images/adults.jpg">
+            <h4>For Adults</h4>
+            
+        </div>
+    </div>
+</div>
+<!--test/survey-->
+<div class="test">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Mental Health Test</h1>
+                <p>Take a free quick test now!</p>
+                <small>Online screening is one of the quickest and easiest ways to determine whether you are experiencing symptoms of a mental health condition</small>
+                <div class="col-2">
+                    <a href="quiz.html" class="btn">Take Test &#8594;</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------testimonials-->
+<div class="testimonial">
+    <div class="small-container">
+        <h2 class="title">Testimonials</h2>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>I cannot thank enough and I would recommend this counselling service to all those needing time and space to talk things through when life has become difficult.</p>
+                <img src="images/user-1.png">
+                <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Talking with an experienced counsellor gives a dimension that challenges your development as a person, works with the positives or your personality and overcomes personal struggles. </p>
+                <img src="images/user-2.png">
+                <h3>Mike Smith</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>I am not sure I have reached the very top of my mountain yet, but because of Hayley, I now know exactly how to climb it and I have the strength to do it.</p>
+                <img src="images/user-3.png">
+                <h3>Mabel Joe</h3>
+           </div>
+        </div>
+    </div>
+</div>
+<!-------footer----------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <div class="logo">MENTAL HELP</div>
+                <p>We welcome all help-seekers and strive to create a safe place for all people</p>  
+            </div>
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Blog Post</li>
+                    <li>Find Centers</li>
+                    <li>Contact Us</li>
+                    <li>Privacy policy</li>
+                </ul>   
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>   
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2021 Mental Help Ltd</p>
+        </div>
+    </div>
+</div>
+<!-----js for toggle menu----->
+ <script>
+     var MenuItems= document.getElementById("MenuItems");
+
+     MenuItems.style.maxHeight="0px";
+
+     function menutoggle() {
+         if(MenuItems.style.maxHeight == "0px")
+         {
+             MenuItems.style.maxHeight = "200px";
+         }
+         else
+         {
+            MenuItems.style.maxHeight = "0px";
+         }
+    }
+ </script>
+</body>
+</html>
